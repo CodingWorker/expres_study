@@ -1,6 +1,7 @@
-const express=require('express');
+const express=require('express');//导入express函数
 
-const app=express();
+const app=express();//执行express函数得到核心对象
+
 //定义一个二级app，专门处理/admin的请求
 const admin=express();
 
